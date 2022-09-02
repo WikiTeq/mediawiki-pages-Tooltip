@@ -1,0 +1,131 @@
+<includeonly>{{#info:{{{1|}}}|{{{2|info}}}|max-width={{{3|}}}|theme={{{4|}}}}}</includeonly><noinclude>
+Tooltips are useful for supplying information to users as a pop-up where it would otherwise be distracting to insert the information in the main text. A primary application of this would be defining variables for mathematical equations. In this case a tooltip can be placed beside the math equation and the variables defined therein.
+
+Tooltips can also be used in other cases and may have different icon styles
+
+{| class="wikitable"
+|-
+!Tooltip type!!icon
+|-
+|info||{{Tooltip|This is sample tooltip text|info}}
+|-
+|warning||{{Tooltip|This is sample tooltip text|warning}}
+|-
+|note||{{Tooltip|This is sample tooltip text|note}}
+|-
+|error||{{Tooltip|This is sample tooltip text|error}}
+|}
+
+Tooltips can also have max-width specified
+
+{| class="wikitable"
+|-
+!max-width!!
+|-
+|100||{{Tooltip|This is sample tooltip text|info|100}}
+|-
+|200||{{Tooltip|This is sample tooltip text|info|200}}
+|-
+|300||{{Tooltip|This is sample tooltip text|info|300}}
+|-
+|}
+
+Tooltips can be show in different themes
+
+{| class="wikitable"
+|-
+!theme!!
+|-
+|default||{{Tooltip|This is sample tooltip text|info}}
+|-
+|square-border||{{Tooltip|This is sample tooltip text|info||square-border}}
+|-
+|square-border-light||{{Tooltip|This is sample tooltip text|info||square-border-light}}
+|-
+|}
+
+= Adding a tooltip using the source editor =
+
+To add a tooltip to a page using the source editor, use the "info" template. For example the following markup:
+
+<pre>{{Tooltip|This is sample tooltip text}}</pre>
+
+will display an information icon with "This is sample tooltip text." as its text:
+
+{{Tooltip|This is sample tooltip text}}
+
+Full params:
+
+<pre>{{Tooltip|This is sample tooltip text|warning|300|square-border-light}}</pre>
+
+= Adding a tooltip using the visual editor =
+
+To add a tooltip to a page using the visual editor do the following.
+
+== Insert the template ==
+# Click the "Insert" menu on the editor toolbar.
+# Find the "Template" menu item and click it.
+
+== Bring up the tooltip dialog ==
+# Type "Tooltip" in the template input. 
+# Wait for the dropdown item to appear and click it. Click "Add template".
+
+== Fill out the Tooltip fields ==
+# In the parameter input, type the tooltip text.
+# (optional) Add a tooltip type, max width and theme parameters
+# Click "Insert".
+
+= Special characters in Tooltips =
+Some special characters, notably the equals sign (<nowiki>=</nowiki>) can be incorrectly interpreted as HTML as discussed [[smw:Help:Special_characters_in_tooltips|here]]. To avoid this, use the string of characters <code>&amp;#61;</code> instead of the equals sign.
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"aliases": [
+				"text"
+			],
+			"label": "Tooltip text",
+			"description": "The text to display when the tooltip is hovered",
+			"example": "Sample text",
+			"required": true
+		},
+		"2": {
+			"label": "Tooltip type",
+			"description": "Defines the type of the tooltip and the icon to be shown",
+			"type": "string",
+			"default": "info",
+			"aliases": [
+				"type"
+			],
+			"example": "info,warning,note,error",
+			"suggested": true
+		},
+		"3": {
+			"label": "Max width",
+			"description": "Defines the maximum width of the popup window",
+			"type": "string",
+			"default": "",
+			"aliases": [
+				"max-width"
+			],
+			"example": "300",
+			"suggested": true
+		},
+		"4": {
+			"label": "Theme",
+			"description": "Defines render theme",
+			"type": "string",
+			"default": "",
+			"aliases": [
+				"theme"
+			],
+			"example": "square-border,square-border-light",
+			"suggested": true
+		}
+	},
+	"description": "Adds a tooltip"
+}
+</templatedata>
+[[Category:mediawiki-pages-Tooltip]]
+</noinclude>

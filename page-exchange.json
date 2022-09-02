@@ -1,0 +1,23 @@
+{
+    "publisher": "WikiTeq",
+    "author": "WikiTeq",
+    "language": "en",
+    "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-Tooltip",
+    "packages": {
+        "1662140134": {
+            "globalID": "1662140134",
+            "description": "",
+            "version": "1.0",
+            "pages": [
+                {
+                    "name": "Tooltip",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-Tooltip\/master\/Template%2FTooltip.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                "SemanticMediaWiki"
+            ]
+        }
+    }
+}
