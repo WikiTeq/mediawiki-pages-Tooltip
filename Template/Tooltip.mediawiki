@@ -67,7 +67,7 @@ To add a tooltip to a page using the visual editor do the following.
 # Find the "Template" menu item and click it.
 
 == Bring up the tooltip dialog ==
-# Type "Tooltip" in the template input. 
+# Type "Tooltip" in the template input.
 # Wait for the dropdown item to appear and click it. Click "Add template".
 
 == Fill out the Tooltip fields ==
@@ -88,7 +88,8 @@ Some special characters, notably the equals sign (<nowiki>=</nowiki>) can be inc
 			"label": "Tooltip text",
 			"description": "The text to display when the tooltip is hovered",
 			"example": "Sample text",
-			"required": true
+			"required": true,
+			"type": "string"
 		},
 		"2": {
 			"label": "Tooltip type",
@@ -105,7 +106,6 @@ Some special characters, notably the equals sign (<nowiki>=</nowiki>) can be inc
 			"label": "Max width",
 			"description": "Defines the maximum width of the popup window",
 			"type": "string",
-			"default": "",
 			"aliases": [
 				"max-width"
 			],
@@ -116,7 +116,6 @@ Some special characters, notably the equals sign (<nowiki>=</nowiki>) can be inc
 			"label": "Theme",
 			"description": "Defines render theme",
 			"type": "string",
-			"default": "",
 			"aliases": [
 				"theme"
 			],
