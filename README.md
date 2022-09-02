@@ -1,9 +1,9 @@
 # mediawiki-pages-Tooltip
-Adds a `Tooltip` template to be used as a wrapper around SMW `#info` parser function
+Adds a `Tooltip` template to be used as a wrapper around SMW `#info` [parser function](https://www.semantic-mediawiki.org/wiki/Help:Adding_tooltips)
 
 # Requirements
-* Extension:SemanticMediaWiki
-* Extension:PageExchange or Extension:PagePort
+* [SemanticMediaWiki](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki)
+* [PageExchange](https://www.mediawiki.org/wiki/Extension:Page_Exchange) or [PagePort](https://gerrit.wikimedia.org/r/admin/repos/mediawiki%2Fextensions%2FPagePort)
 
 # Setup
 
