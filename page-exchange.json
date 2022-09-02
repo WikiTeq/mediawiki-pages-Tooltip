@@ -6,7 +6,7 @@
     "packages": {
         "1662140134": {
             "globalID": "1662140134",
-            "description": "",
+            "description": "Adds a Tooltip template to ease use of SMW #info function",
             "version": "1.0",
             "pages": [
                 {
