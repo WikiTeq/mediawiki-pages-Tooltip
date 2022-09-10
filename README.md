@@ -25,10 +25,10 @@ $wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/media
 
 The template has the following unnamed parameters:
 
-1 - the text to display inside a tooltip (required)
-2 - tooltip icon type `info`, `warning`, `error`, `note`
-3 - max. width of the tooltip window in pixels without prefix, eg: `100`
-4 - theme, can be empty for default (with rounded corners) or `square-border`, `square-border-light`
+* 1 - the text to display inside a tooltip (required)
+* 2 - tooltip icon type `info`, `warning`, `error`, `note`
+* 3 - max. width of the tooltip window in pixels without prefix, eg: `100`
+* 4 - theme, can be empty for default (with rounded corners) or `square-border`, `square-border-light`
 
 ```
 {{Tooltip|This is a tooltip text}}
