@@ -37,4 +37,9 @@ The template has the following unnamed parameters:
 {{Tooltip|This is a tooltip text|error|300|square-border-light}}
 ```
 
+## Markup supported
+
+* Wiki markup (including internal and external links)
+* Simple html (including `class` attribute)
+
 Navigate to `Template:Tooltip` for more detailed usage examples
