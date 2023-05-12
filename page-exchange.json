@@ -4,8 +4,8 @@
     "language": "en",
     "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-Tooltip",
     "packages": {
-        "1662140134": {
-            "globalID": "1662140134",
+        "Tooltip": {
+            "globalID": "com.wikiteq.Tooltip",
             "description": "Adds a Tooltip template to ease use of SMW #info function",
             "version": "1.0",
             "pages": [
